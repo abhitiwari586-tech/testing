@@ -1,19 +1,3 @@
-
-/** config.js
- * Change YouTube IDs here whenever you want to change songs.
- * Example link: https://www.youtube.com/watch?v=XXXXXXXXXXX  -> ID is XXXXX
- */
-window.SONGS = {
-  "2026-02-06": { id: "qYjPxdLIuk0", title: "Tere Naina — My Name Is Khan" },
-  "2026-02-07": { id: "1wYhN0Cq3gk", title: "Tum Hi Ho — Aashiqui 2" },
-  "2026-02-08": { id: "2Vv-BfVoq4g", title: "Perfect — Ed Sheeran" },
-  "2026-02-09": { id: "c7K6xJ7fD4o", title: "Tere Dar Par Sanam" },
-  "2026-02-10": { id: "pV3b2gVYf7o", title: "Dekha Tenu Pehli Pehli Baar — Mohammed Faiz" },
-  "2026-02-11": { id: "l8Yh8nXw1uU", title: "Tujhko Hi Dulhan Banaunga — Sonu Nigam" },
-  "2026-02-12": { id: "wJ4o7s_3o9Y", title: "Gehra Hua — Arijit Singh" },
-  "2026-02-14": { id: "lK3Q9b2wQkA", title: "Apna Bana Le — Arijit Singh" }
-};
-
 window.SURPRISE_DATES = [
   "2026-02-06",
   "2026-02-07",
@@ -24,3 +8,38 @@ window.SURPRISE_DATES = [
   "2026-02-12",
   "2026-02-14"
 ];
+
+window.SONGS = {
+  "2026-02-06": {
+    title: "Tere Naina",
+    url: "https://www.youtube.com/watch?v=qYjPxdLIuk0"
+  },
+  "2026-02-07": {
+    title: "Tum Hi Ho",
+    url: "https://www.youtube.com/watch?v=Umqb9KENgmk"
+  },
+  "2026-02-08": {
+    title: "Perfect",
+    url: "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+  },
+  "2026-02-09": {
+    title: "Tere Dar Par Sanam",
+    url: "https://www.youtube.com/watch?v=XXXX"
+  },
+  "2026-02-10": {
+    title: "Dekha Tenu",
+    url: "https://www.youtube.com/watch?v=XXXX"
+  },
+  "2026-02-11": {
+    title: "Tujhko Hi Dulhan Banaunga",
+    url: "https://www.youtube.com/watch?v=XXXX"
+  },
+  "2026-02-12": {
+    title: "Gehra Hua",
+    url: "https://www.youtube.com/watch?v=XXXX"
+  },
+  "2026-02-14": {
+    title: "Apna Bana Le",
+    url: "https://www.youtube.com/watch?v=XXXX"
+  }
+};
